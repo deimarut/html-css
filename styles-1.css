@@ -1,0 +1,405 @@
+body {
+    background-image: url(/graphic.svg);
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-position-x: 11rem;
+    background-position-y: 3.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (min-width: 1400px) {
+    body {
+        background-size: 40rem;
+        background-position-x: 55rem;
+    }
+}
+
+.header, 
+.pink-text, 
+.nft-h1-1,
+.nft-h1,
+.release-text-1,
+.release-text,
+.via {
+    margin: 37px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+nav a {
+    color: #555555;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+    text-decoration: none;
+}
+
+@media (max-width: 1400px) {
+    nav a {
+        display: none;
+    }
+}
+
+.pink {
+    color: #FF3998;
+}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+.pink-text {
+    color: #FF3998;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.nft-h1-1,
+.nft-h1 {
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: -2px;
+    width: 19rem;
+}
+
+.nft-h1 {
+    width: 17rem;
+}
+
+@media (min-width: 1400px) {
+    .nft-h1 {
+        font-size: 56px;
+        width: auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .nft-h1-1 {
+        font-size: 80px;
+        width: 35rem;
+    }
+}
+
+.release-text, 
+.release-text-1 {
+    color: #555555;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 16rem;
+}
+
+.release-text {
+    width: 12rem;
+}
+
+@media (min-width: 1400px) {
+    .release-text-1 {
+        font-size: 20px;
+        width: 35%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .release-text {
+        font-size: 20px;
+        width: 35%;
+    }
+}
+
+.sign-up, 
+.sign-up-2 {
+    background-color: white;
+    border: solid rgb(243, 135, 34);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0 0 30px 37px;
+    padding: 20px;
+    width: 9.5rem;
+}
+
+@media (min-width: 1400px) {
+    .sign-up-2 {
+        margin-bottom: 8rem;
+    }
+}
+
+.orange-background {
+    background-image: url(/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 0 0 5px 0;
+    padding: 20px;
+}
+
+@media (min-width: 1400px) {
+    .orange-background {
+        background-size: cover;
+        height: 20rem;
+        margin: 50px 30px 0 30px;
+    }
+}
+
+.text {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 80px 0 17px 20px;
+}
+
+@media (min-width: 1400px) {
+    .text, 
+    .text:nth-child(2) {
+        margin-top: 12rem;
+    }
+}
+
+.text:nth-child(2) {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.images img {
+    width: 10rem;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column (2);
+    justify-content: space-between;
+    margin: 20px 0 0 15px;
+    padding: 20px;
+    row-gap: 20px;
+}
+
+@media (min-width: 1400px) { 
+    .images {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 20px 50px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .open-door {
+        display: none;
+    } 
+}
+
+.auction {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 37px;
+}
+
+.via {
+    color: #555555;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+section p a {
+    color: rgba(85, 85, 85, 1);
+    font-weight: bold;
+    text-decoration: underline black;
+}
+
+.scrollable {
+    display: flex;
+    margin: 0 0 0 30px;
+    overflow-x: auto;
+}
+
+@media (min-width: 1400px) {
+    .scrollable {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.scrollable img {
+    cursor: pointer;
+}
+
+.gray {
+    background-color: #EEEEEE;
+    border-radius: 16px;
+    margin: 0 35px 0 0;
+    width: 18.1rem;
+}
+
+@media (min-width: 1440px) {
+    section div.gray:not(:last-child) {
+        margin: 0 6rem 0 0;
+    }
+}
+
+table {
+    padding: 10px;
+    width: 100%;
+}
+
+td, 
+th {
+    padding: 5px;
+}
+
+.th-gloop, 
+.th-bid {
+    color: orange;
+    font-size: 12px; 
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.th-bid {
+    color: #777;
+    text-align: right;
+}
+
+.td-purple,
+.td-eth {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.td-eth {
+    text-align: right;
+}
+
+.diamond {
+    height: 20px;
+}
+
+.td-numbers, 
+.td-day {
+    color: #777;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.td-day {
+    text-align: right;
+}
+
+hr { 
+    border-top: solid #eee;
+    margin: 50px 0 50px 0px;
+}
+
+.background {
+    background-image: url(/green-big.svg);
+    background-position-x: 15rem;
+    background-position-y: 5rem;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1400px) {
+    .background {
+        background-position-x: 65rem;
+        background-position-y: 1rem;
+        background-size: 12rem;
+    }
+}
+
+.linija {
+    border-top: solid #eee;
+    margin: 0 0 50px 0;
+}
+
+@media (min-width: 1400px) {
+    hr {
+        margin: 6rem 40px 6rem 40px;
+    }
+   
+    .linija {
+        margin: 0 40px 80px 40px;
+    } 
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30px;
+}
+
+.footer-left {
+    grid-column: 2 span;
+}
+
+@media (min-width: 1400px) {
+    .wrapper {
+        grid-template-columns: 54rem repeat(5, 1fr);
+    }
+
+    .footer-left {
+        margin-left: 30px;
+    }
+}
+
+.exclusive {
+    color: #555555;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.social {
+    margin: 10px 0 10px 0;
+}
+
+.name {
+    color: #555555;
+    font-size: 13px;
+    font-weight: 700;
+    grid-column: 1 span;
+    margin-top: 10px;
+    text-transform: uppercase;
+ }
+
+.name p {
+    font-weight: 100;
+    margin: 10px 0 10px 0;
+    text-transform: none;
+}
+
+.copyright, 
+.august {
+    color: #999;
+    margin: 30px 0 40px 37px;
+    margin-top: 30px;
+}
+
+.august {
+    margin-right: 35px;
+}
+
+.copyright-august {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+@media (max-width: 768px) { 
+    .august {
+        display: none;
+    }
+
+    .copyright-august {
+        margin-top: 10px;
+    }
+}
